@@ -15,12 +15,9 @@
 
     cards_cross  =  КАРТЫ  //  МАСТЬ
 
-    m_favorable_outcomes  =  numpy . математика . расческа ( cards_cross ,
-                                           НЕОБХОДИМО_КАРТЫ )
-    n_total_outcomes  =  numpy . математика . гребень ( ОТКРЫТКИ ,
-                                       НЕОБХОДИМО_КАРТЫ )
-    вероятностное_событие_а  =  numpy . разделить ( m_favorable_outcomes ,
-                                       n_total_outcomes )
+    m_favorable_outcomes  =  numpy . математика . расческа ( cards_cross , НЕОБХОДИМО_КАРТЫ )
+    n_total_outcomes  =  numpy . математика . гребень ( ОТКРЫТКИ , НЕОБХОДИМО_КАРТЫ )
+    вероятностное_событие_а  =  numpy . разделить ( m_favorable_outcomes , n_total_outcomes )
 
     result_task_a  =  'Вероятность того, что 4 карты извлекаемые случайным ' \
         +  f'образом из колоды осуществляющимся крести p = { вероятность_события_a :.5f } '
@@ -29,12 +26,9 @@
 
     NEED_CARDS_ACES  =  1
 
-    m_favorable_outcomes  =  numpy . математика . расческа ( NEED_CARDS ,
-                                           NEED_CARDS_ACES )
-    n_total_outcomes  =  numpy . математика . гребень ( ОТКРЫТКИ ,
-                                       NEED_CARDS_ACES )
-    вероятностное_событие_b  =  числовое значение . разделить ( m_favorable_outcomes ,
-                                       n_total_outcomes )
+    m_favorable_outcomes  =  numpy . математика . расческа ( NEED_CARDS , NEED_CARDS_ACES )
+    n_total_outcomes  =  numpy . математика . гребень ( ОТКРЫТКИ , NEED_CARDS_ACES )
+    вероятностное_событие_b  =  числовое значение . разделить ( m_favorable_outcomes , n_total_outcomes )
 
     result_task_b  =  'Вероятность того, что из 4 карт извлекаемых случайным' \
         +  f'образом из колодки был обнаружен один туз p = { вероятностное_событие_b :.5f } '

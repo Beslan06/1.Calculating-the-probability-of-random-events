@@ -12,12 +12,9 @@
     БИЛЕТЫ_WIN  =  2
     NEED_TICKETS  =  2
 
-    m_favorable_outcomes  =  numpy . математика . расческа ( NEED_TICKETS ,
-                                           НУЖНЫ_БИЛЕТЫ )
-    n_total_outcomes  =  numpy . математика . гребенка ( БИЛЕТЫ ,
-                                       БИЛЕТЫ_WIN )
-    вероятностное_событие  =  числовое значение . разделить ( m_favorable_outcomes ,
-                                     n_total_outcomes )
+    m_favorable_outcomes  =  numpy . математика . расческа ( NEED_TICKETS , НУЖНЫ_БИЛЕТЫ )
+    n_total_outcomes  =  numpy . математика . гребенка ( БИЛЕТЫ , БИЛЕТЫ_WIN )
+    вероятностное_событие  =  числовое значение . разделить ( m_favorable_outcomes , n_total_outcomes )
 
     result_task  =  'Вероятность того, что 2 приобретенных билета ' \
         +  f'осуществляющийся выигрышными p = { вероятность_события :.5f } '
